@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InClass07_Group21</string>
+    <string name="add">Add</string>
+
+    <string name="all">Show All</string>
+    <string name="complete">Show Completed</string>
+    <string name="pending">Show Pending</string>
+    <string name="time">Sort by Time</string>
+    <string name="Priority">Sort by Priority</string>
+
+
+
+    <string-array name="priority_array">
+        <item>Priority</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

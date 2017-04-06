@@ -1,0 +1,13 @@
+<resources>
+    <string name="target_tv1">Target Weight</string>
+    <string name="bmi_tv2">BMI Range</string>
+    <string name="rb1"><![CDATA[<18.5]]></string>
+    <string name="rb2">18.5 to 24.9</string>
+    <string name="rb3">25.0 to 29.9</string>
+    <string name="rb4"><![CDATA[>29.9]]></string>
+    <string name="height_tv3">Height</string>
+    <string name="feet_tv4">feet</string>
+    <string name="inch_tv5">inch</string>
+    <string name="cal_bt1">Calculate Weight</string><string name="app_name">InClass2b</string>\
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Midterm</string>
+
+    <string name="cart">Add to Cart</string>
+    <string name="menu1">Cart</string>
+    <string name="menu2">History</string>
+
+    <string name="display">Total:</string>
+
+    <string name="buttonCancel">Cancel</string>
+
+    <string name="Checkout">Checkout</string>
+
+
+</resources>

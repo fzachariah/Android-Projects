@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.febin.group21_inclass08.BlankFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayoutMain">
+
+
+        <Button
+            android:text="@string/add"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:id="@+id/buttonAdd"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="150dp" />
+
+        <Button
+            android:text="@string/edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttonEdit"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+             />
+
+        <Button
+            android:text="@string/delete"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/buttonDelete"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="150dp" />
+
+        <Button
+            android:text="@string/year"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:id="@+id/buttonYear"
+            android:textAllCaps="false"
+             />
+
+
+        <Button
+            android:text="@string/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_gravity="center"
+            android:id="@+id/buttonRating"
+            android:textAllCaps="false"
+             />
+
+
+
+    </LinearLayout>
+</FrameLayout>

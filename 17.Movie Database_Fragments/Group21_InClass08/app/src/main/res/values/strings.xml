@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Group21_InClass08</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="add">Add Movie</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete Movie</string>
+    <string name="year">Show List by Year</string>
+    <string name="rating">Show List by Rating</string>
+
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="genre">Genre:</string>
+    <string name="ratingAdd">Rating:</string>
+    <string name="yearAdd">Year:</string>
+    <string name="imdb">IMDB:</string>
+    <string name="addButton">Add Movie</string>
+    <string name="save">Save Changes</string>
+
+    <string name="heading">Movies by Year</string>
+    <string name="headingOne">Movies by Rating</string>
+    <string name="title">Title:</string>
+    <string name="finish">Finish</string>
+
+
+    <string-array name="genre_array">
+        <item>Select Item</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

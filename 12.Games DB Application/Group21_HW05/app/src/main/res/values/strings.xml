@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Group21_HW05</string>
+    <string name="search">Search</string>
+    <string name="Go">Go</string>
+    <string name="Overview">Overview:</string>
+    <string name="trailer">Play Trailer</string>
+    <string name="similar">Similar Games</string>
+    <string name="finish">Finish</string>
+</resources>

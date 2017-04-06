@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/all"
+        android:id="@+id/all" />
+    <item  android:id="@+id/complete"
+        android:title="@string/complete"/>
+    <item  android:id="@+id/pending"
+        android:title="@string/pending"/>
+    <item  android:id="@+id/time"
+        android:title="@string/time"/>
+    <item  android:id="@+id/priority"
+        android:title="@string/Priority"/>
+
+</menu>

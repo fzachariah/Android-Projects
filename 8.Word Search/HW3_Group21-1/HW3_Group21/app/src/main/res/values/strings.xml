@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW3_Group21</string>
+    <string name="heading">Add Words to search:</string>
+    <string name="cases">Match Cases</string>
+    <string name="search">Search</string>
+    <string name="finish">Finish</string>
+    <string name="result">Word Frequencies:</string>
+
+
+</resources>

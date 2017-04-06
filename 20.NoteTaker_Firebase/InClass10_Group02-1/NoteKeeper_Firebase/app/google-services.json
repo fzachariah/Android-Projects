@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "332569385864",
+    "firebase_url": "https://notekeeperfirebase-9fbe5.firebaseio.com",
+    "project_id": "notekeeperfirebase-9fbe5",
+    "storage_bucket": "notekeeperfirebase-9fbe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332569385864:android:c219c01d252e301e",
+        "android_client_info": {
+          "package_name": "edu.uncc.notekeeper_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332569385864-ndd560iu62e48aik6pfblpcfuh52cv7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.uncc.notekeeper_firebase",
+            "certificate_hash": "e138818b90e3c85ba29840ba51d8c14e9154a1cd"
+          }
+        },
+        {
+          "client_id": "332569385864-g7meqdmev99qv6pgpthn4jatdcnts603.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANk-TLr4jGzc3xv4bciRyTjXI_sZhAx-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332569385864-g7meqdmev99qv6pgpthn4jatdcnts603.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

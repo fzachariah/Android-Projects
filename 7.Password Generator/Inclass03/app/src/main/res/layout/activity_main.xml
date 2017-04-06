@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.febin.inclass03.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewThreadheadingCount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:id="@+id/textViewDisplayCountThread" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBarLengthTHread"
+        android:layout_alignRight="@+id/textViewDisplayCountThread"
+        android:layout_alignEnd="@+id/textViewDisplayCountThread"
+        android:id="@+id/textViewLengthDisplayThread" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewHeadingCountAsync"
+        android:layout_marginTop="25dp"
+        android:id="@+id/seekBarAsyncCount"
+        android:max="9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBarAsyncCount"
+        android:layout_alignLeft="@+id/seekBarAsyncCount"
+        android:layout_alignStart="@+id/seekBarAsyncCount"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textViewDispHeadingLength"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textViewHeadingCountAsync"
+        android:textSize="18sp"
+        android:layout_below="@+id/textViewAsyncHeading"
+        android:layout_alignLeft="@+id/seekBarAsyncCount"
+        android:layout_alignStart="@+id/seekBarAsyncCount" />
+
+    <TextView
+        android:text="@string/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textViewLengthHeadingThread"
+        android:textSize="18sp"
+        android:layout_below="@+id/seekBarCountThread"
+        android:layout_alignLeft="@+id/seekBarLengthTHread"
+        android:layout_alignStart="@+id/seekBarLengthTHread" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewDispHeadingLength"
+        android:layout_toLeftOf="@+id/textViewLengthDisplayThread"
+        android:layout_toStartOf="@+id/textViewLengthDisplayThread"
+        android:id="@+id/textViewDispLegthAsync" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarAsyncLength"
+        android:layout_above="@+id/buttonGenerate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:max="16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="16"
+        android:layout_marginTop="36dp"
+        android:id="@+id/seekBarLengthTHread"
+        android:layout_below="@+id/textViewLengthHeadingThread"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewThreadheadingCount"
+        android:textSize="18sp"
+        android:layout_below="@+id/textViewheading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:max="9"
+        android:id="@+id/seekBarCountThread"
+        android:layout_below="@+id/textViewThreadheadingCount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/headingAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAsyncHeading"
+        android:textSize="20sp"
+        android:layout_below="@+id/seekBarLengthTHread"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDispCountAsync"
+        android:layout_alignTop="@+id/textViewHeadingCountAsync"
+        android:layout_toRightOf="@+id/textViewDispLegthAsync"
+        android:layout_toEndOf="@+id/textViewDispLegthAsync" />
+
+    <Button
+        android:text="@string/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGenerate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textViewDispHeadingLength"
+        android:layout_alignEnd="@+id/textViewDispHeadingLength" />
+
+    <TextView
+        android:text="@string/Headingthread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewheading"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/buttonGenerate"
+        android:layout_toStartOf="@+id/buttonGenerate" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Group21_InClass04</string>
+    <string name="source">Select News Source:</string>
+    <string name="finish">Finish</string>
+    <string name="get">Get News</string>
+    <string-array name="source_array">
+        <item>Select</item>
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+
+    </string-array>
+
+
+
+</resources>

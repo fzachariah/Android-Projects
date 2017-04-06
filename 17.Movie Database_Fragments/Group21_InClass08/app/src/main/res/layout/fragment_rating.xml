@@ -1,0 +1,216 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.febin.group21_inclass08.RatingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewTitle"
+            android:layout_alignLeft="@+id/textViewHeading"
+            android:layout_alignStart="@+id/textViewHeading"
+            android:id="@+id/textViewTitleValueRating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/textViewTitle" />
+
+        <TextView
+            android:text="@string/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:id="@+id/textViewDescriptionOne"
+            android:layout_below="@+id/textViewTitle"
+            android:layout_alignLeft="@+id/textViewTitle"
+            android:layout_alignStart="@+id/textViewTitle"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:id="@+id/textViewDesValueRating"
+            android:layout_below="@+id/textViewDescriptionOne"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="90sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewGenreOne"
+            android:layout_toRightOf="@+id/textViewDescriptionOne"
+            android:id="@+id/textViewGenreValueRating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_alignLeft="@+id/textViewGenreValueRating"
+            android:layout_alignStart="@+id/textViewGenreValueRating"
+            android:id="@+id/textViewRatingValueRating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/yearAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView10"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView10"
+            android:layout_alignLeft="@+id/textViewRatingValueRating"
+            android:layout_alignStart="@+id/textViewRatingValueRating"
+            android:id="@+id/textViewYearvalueRating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/imdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView12"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignLeft="@+id/textViewYearvalueRating"
+            android:layout_alignStart="@+id/textViewYearvalueRating"
+            android:id="@+id/textViewLinkValueRating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:id="@+id/textViewGenreOne"
+            android:layout_below="@+id/textViewDesValueRating"
+            android:layout_alignLeft="@+id/textViewDescriptionOne"
+            android:layout_alignStart="@+id/textViewDescriptionOne"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/ratingAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textViewGenreOne"
+            android:layout_alignLeft="@+id/textViewGenreOne"
+            android:layout_alignStart="@+id/textViewGenreOne"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="17dp"
+            android:id="@+id/textViewTitle"
+            android:textSize="18sp"
+            android:layout_below="@+id/textViewHeading"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="40dip"
+            android:layout_height="50dip"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageButtonNextRating"
+            android:layout_alignTop="@+id/finishButtonRatting"
+            android:layout_toRightOf="@+id/finishButtonRatting"
+            android:layout_toEndOf="@+id/finishButtonRatting"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:src="@drawable/next"
+             />
+
+        <TextView
+            android:text="@string/headingOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewHeading"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_height="50dip"
+            android:id="@+id/imageButtonFirstRating"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_width="50dip"
+            android:src="@drawable/first"
+            android:layout_alignTop="@+id/finishButtonRatting"
+            android:layout_alignRight="@+id/textView12"
+            android:layout_alignEnd="@+id/textView12" />
+
+        <Button
+            android:text="@string/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finishButtonRatting"
+            android:textAllCaps="false"
+            android:layout_marginBottom="14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+             />
+
+        <ImageButton
+            android:layout_width="40dip"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageButtonLastRating"
+            android:layout_height="50dip"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/last"
+            android:layout_alignTop="@+id/imageButtonNextRating"
+            android:layout_toRightOf="@+id/imageButtonNextRating"
+            android:layout_toEndOf="@+id/imageButtonNextRating"
+            />
+
+        <ImageButton
+            android:layout_height="50dip"
+            android:id="@+id/imageButtonPreviousRating"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+
+            android:layout_width="50dip"
+            android:src="@drawable/previous"
+            android:layout_alignTop="@+id/imageButtonFirstRating"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8" />
+
+    </RelativeLayout>
+</FrameLayout>

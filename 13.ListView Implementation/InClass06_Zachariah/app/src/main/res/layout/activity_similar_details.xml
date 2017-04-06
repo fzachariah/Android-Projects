@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_similar_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.febin.inclass06_zachariah.SimilarDetails">
+
+
+    <ImageView
+        android:layout_below="@+id/textViewTitleSimilar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageViewSimilar"
+        android:background="@drawable/border"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="140dp"
+        android:layout_width="350dp" />
+
+    <TextView
+        android:text="@string/Overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewSimilar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2Similar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/border"
+        android:layout_alignParentStart="true"
+        android:maxLines = "150"
+        android:scrollbars = "vertical"
+        android:id="@+id/textViewOverViewSimilar"
+        android:layout_below="@+id/textView2Similar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textViewGenreSimilar"
+        android:textSize="12sp"
+        android:layout_below="@+id/textViewOverViewSimilar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewPublisherSimilar"
+        android:textSize="12sp"
+        android:layout_below="@+id/textViewGenreSimilar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitleSimilar"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonFinishSimilar"
+        android:layout_below="@+id/textViewPublisherSimilar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

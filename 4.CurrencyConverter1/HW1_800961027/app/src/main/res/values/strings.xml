@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="inputText">Input Amount</string>
+    <string name="AUD">AUD</string>
+    <string name="CAD">CAD</string>
+    <string name="INR">INR</string>
+    <string name="USD">USD</string>
+    <string name="GBP">GBP</string>
+    <string name="convertmsg">Convert</string>
+    <string name="clear">Clear</string>
+    <string name="convert">Convert to</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.febin.hw1_800961027.MainActivity"
+    android:background="#ffffff">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textViewConvert"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/radioGroup3">
+
+        <RadioButton
+            android:text="@string/USD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonUSD"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/GBP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonGBP"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewConvert"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/convertmsg"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonConvert"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/radioGroup3"
+        android:layout_alignLeft="@+id/buttonClear"
+        android:layout_alignStart="@+id/buttonClear" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:background="@drawable/edit_text_design"
+        android:id="@+id/editTextInput"
+        android:hint="@string/inputText"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/editTextInput"
+        android:layout_alignLeft="@+id/radioGroup3"
+        android:layout_alignStart="@+id/radioGroup3"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:text="@string/AUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonAUD"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/CAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonCAD"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/INR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonINR"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="45sp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/textAnswer"
+        android:layout_above="@+id/buttonClear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:text="@string/clear"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonClear"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textViewConvert"
+        android:layout_alignStart="@+id/textViewConvert"
+        android:onClick="clearData" />
+
+</RelativeLayout>

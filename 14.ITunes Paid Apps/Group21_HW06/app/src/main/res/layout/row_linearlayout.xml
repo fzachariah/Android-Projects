@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:id="@+id/imageView"
+        android:layout_width="60dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlyoutInside"
+        android:layout_width="220dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewApp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPrice" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:id="@+id/imageViewStar"
+        android:layout_weight="0.64" />
+</LinearLayout>

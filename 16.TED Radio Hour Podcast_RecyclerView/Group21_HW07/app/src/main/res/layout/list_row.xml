@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="239dp"
+        android:layout_height="87dp"
+        android:padding="3dp"
+        android:id="@+id/linearLayoutInside"
+        android:weightSum="1">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTitle"
+            android:textSize="16sp"
+            android:textColor="@color/title" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPosted"
+            android:textColor="@color/date" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:id="@+id/LinearLayoUtPlay">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:layout_gravity="left"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/media"
+                android:id="@+id/imageButton" />
+
+            <TextView
+                android:text="@string/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:textColor="@color/play" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

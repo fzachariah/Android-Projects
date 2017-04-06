@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Group21_HW04</string>
+    <string name="heading">Welcome to Trivia App</string>
+    <string name="exit">Exit</string>
+    <string name="finish">Finish</string>
+    <string name="start">Start Trivia</string>
+    <string name="trivia">Loading Trivia</string>
+    <string name="image">Loading Image</string>
+    <string name="correct">Correct Answers</string>
+    <string name="performance">Your Performance:</string>
+
+    <string name="prev">Previous</string>
+    <string name="next">Next</string>
+</resources>

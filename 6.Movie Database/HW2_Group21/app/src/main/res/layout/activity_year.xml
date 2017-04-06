@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_year"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.febin.hw2_group21.YearActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewTitle"
+        android:layout_alignLeft="@+id/textViewHeading"
+        android:layout_alignStart="@+id/textViewHeading"
+        android:id="@+id/textViewTitleValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textViewTitle" />
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textViewDescriptionOne"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignLeft="@+id/textViewTitle"
+        android:layout_alignStart="@+id/textViewTitle"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewDesValue"
+        android:layout_below="@+id/textViewDescriptionOne"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="90sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewGenreOne"
+        android:layout_toRightOf="@+id/textViewDescriptionOne"
+        android:id="@+id/textViewGenreValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignLeft="@+id/textViewGenreValue"
+        android:layout_alignStart="@+id/textViewGenreValue"
+        android:id="@+id/textViewRatingValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/yearAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/textViewRatingValue"
+        android:layout_alignStart="@+id/textViewRatingValue"
+        android:id="@+id/textViewYearvalue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/imdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView12"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/textViewYearvalue"
+        android:layout_alignStart="@+id/textViewYearvalue"
+        android:id="@+id/textViewLinkValue"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textViewGenreOne"
+        android:layout_below="@+id/textViewDesValue"
+        android:layout_alignLeft="@+id/textViewDescriptionOne"
+        android:layout_alignStart="@+id/textViewDescriptionOne"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/ratingAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textViewGenreOne"
+        android:layout_alignLeft="@+id/textViewGenreOne"
+        android:layout_alignStart="@+id/textViewGenreOne"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:layout_height="50dip"
+        app:srcCompat="@drawable/previous"
+        android:id="@+id/imageButtonPrevious"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="clickPrevious"
+        android:layout_width="50dip"
+        android:layout_alignTop="@+id/imageButtonFirst"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textViewTitle"
+        android:textSize="18sp"
+        android:layout_below="@+id/textViewHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFinish"
+        android:textAllCaps="false"
+        android:layout_marginBottom="13dp"
+        android:onClick="finishButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="40dip"
+        android:layout_height="50dip"
+        app:srcCompat="@drawable/next"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButtonNext"
+        android:onClick="clickNext"
+        android:layout_alignTop="@+id/buttonFinish"
+        android:layout_toRightOf="@+id/buttonFinish"
+        android:layout_toEndOf="@+id/buttonFinish"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <ImageButton
+        android:layout_width="40dip"
+        app:srcCompat="@drawable/last"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButtonLast"
+        android:layout_height="50dip"
+        android:onClick="clickLast"
+        android:layout_alignTop="@+id/imageButtonNext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <TextView
+        android:text="@string/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHeading"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="50dip"
+        app:srcCompat="@drawable/first"
+        android:id="@+id/imageButtonFirst"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="clickFirst"
+        android:layout_width="50dip"
+        android:layout_alignTop="@+id/buttonFinish"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+</RelativeLayout>
