@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.febin.group21_hw08.CityWeatherActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textViewHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="@color/heading"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/textViewHeading"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_alignRight="@+id/textView8"
+            android:layout_below="@+id/view"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:text="@string/headline"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewHeadLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:text="TextView"
+            android:textColor="@color/action"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewHeadLine"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textViewHeadLine"
+            android:layout_below="@+id/textViewHeadLine"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_below="@+id/textViewDate"
+            android:text="TextView"
+            android:textColor="@color/action" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTemperature"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/condition"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_toLeftOf="@+id/textViewExtended"
+            android:layout_toStartOf="@+id/textViewExtended"
+            android:text="@string/dayHeading"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageViewNight"
+            android:layout_alignStart="@+id/imageViewNight"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:text="@string/nightHeading"
+            android:textColor="@color/action"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageViewDay"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/textViewDate"
+            android:layout_alignStart="@+id/textViewDate"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="17dp" />
+
+        <ImageView
+            android:id="@+id/imageViewNight"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/imageViewDay"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_toRightOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textViewDayStats"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageViewDay"
+            android:layout_alignRight="@+id/imageViewDay"
+            android:layout_below="@+id/imageViewDay"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/action"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewNightStats"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewDetails"
+            android:layout_alignLeft="@+id/imageViewNight"
+            android:layout_alignStart="@+id/imageViewNight"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/action"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDayStats"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="@string/click1"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewDetails"
+            android:layout_marginTop="10dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textViewExtended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/click2"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

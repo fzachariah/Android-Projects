@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Preference
+        android:title="@string/tempUnit"
+        android:key="tempKey"
+        android:summary="@string/tempUnitMessage"
+         />
+    <Preference
+        android:key="cityKey"
+        android:summary="@string/currentCityMessage1"
+        android:title="@string/currentCity"  />
+
+</PreferenceScreen>

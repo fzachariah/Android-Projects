@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="settings">Settings</string>
+    <string name="buttonSearch">Search City</string>
+    <string name="cityName">City Name (ie, Charlotte)</string>
+    <string name="countryName">Country Name (ie, US)</string>
+    <string name="currentCityMessage">Current City not yet set</string>
+    <string name="buttonCurrent">Set Current City</string>
+    <string name="Saved">Saved Cities</string>
+    <string name="messsage1">There are no cities to display.</string>
+    <string name="messsage2">Search the city from the search box and save.</string>
+    <string name="saveCity">Save City</string>
+    <string name="setAs">Set as Current City</string>
+    <string name="settingsCityWeather">Settings</string>
+    <string name="headline">Headline</string>
+    <string name="condition">Condition</string>
+    <string name="dayHeading">Day</string>
+    <string name="nightHeading">Night</string>
+    <string name="click1">Click here for more Details</string>
+    <string name="click2">Click here for extended forecast</string>
+
+    <string name="tempUnit">Temperature Unit</string>
+    <string name="tempUnitMessage">Choose between Celsius and Fahrenheit</string>
+    <string name="currentCity">Current City</string>
+    <string name="currentCityMessage1">Change Current City</string>
+
+
+</resources>
+
