@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:id="@+id/txtViewUserName"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout"
+            android:id="@+id/btnLogout"
+            android:scaleType="fitXY"
+            android:background="@null"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:background="@drawable/border"
+        android:id="@+id/scrolView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutContainer"></LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextNewMessage"
+            android:layout_weight="0.31"
+            android:hint="Type Message to send" />
+
+        <ImageButton
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/send"
+            android:id="@+id/btnSend"
+            android:scaleType="fitXY"
+            android:layout_weight="0.03"
+            android:onClick="btnSendAction"/>
+
+        <ImageButton
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gallery"
+            android:id="@+id/btnGallery"
+            android:scaleType="fitXY"
+            android:onClick="btnGalleryAction"/>
+    </LinearLayout>
+
+
+</LinearLayout>

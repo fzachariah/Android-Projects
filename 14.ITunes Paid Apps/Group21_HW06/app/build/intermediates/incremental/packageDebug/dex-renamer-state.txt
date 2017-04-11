@@ -1,7 +1,4 @@
-#Sat Feb 25 22:50:15 EST 2017
-base.0=C\:\\Users\\febin\\AndroidStudioProjects\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a8823bf7ce3e46319f60f1784616f0640cee790
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\febin\\AndroidStudioProjects\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_df6ab5fcbc99002e1904f4b3a43fbdacbc39ac16\\classes.dex
-base.1=C\:\\Users\\febin\\AndroidStudioProjects\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_df6ab5fcbc99002e1904f4b3a43fbdacbc39ac16
-file.0=C\:\\Users\\febin\\AndroidStudioProjects\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a8823bf7ce3e46319f60f1784616f0640cee790\\classes.dex
+#Mon Apr 10 15:38:34 EDT 2017
+base.0=C\:\\Users\\febin\\Desktop\\Android_Projects\\14.ITunes Paid Apps\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\febin\\Desktop\\Android_Projects\\14.ITunes Paid Apps\\Group21_HW06\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
