@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    tools:context="com.example.febin.group21_hw09.LoginFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextEmailLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="87dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPasswordLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextEmailLogin"
+            android:layout_alignRight="@+id/editTextEmailLogin"
+            android:layout_below="@+id/editTextEmailLogin"
+            android:layout_marginTop="39dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/actionbar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sign_in_button"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:textAllCaps="false"
+            android:background="@color/actionbar"
+            android:layout_toLeftOf="@+id/sign_in_button"
+            android:layout_toStartOf="@+id/sign_in_button"
+            android:text="@string/btnLogin" />
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonLogin"
+            android:layout_alignBottom="@+id/buttonLogin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:background="@color/actionbar"
+            android:text="@string/btnSignUp"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/buttonLogin"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/buttonLogin"
+            android:layout_marginTop="28dp"
+            android:text="Login"
+            android:textColor="@color/actionbar"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</FrameLayout>

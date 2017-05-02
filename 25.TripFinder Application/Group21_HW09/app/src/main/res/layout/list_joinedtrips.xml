@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/brownColor"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:id="@+id/imageViewJoinTrip"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInside"
+        android:layout_width="200dp"
+        android:layout_height="87dp"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textViewTripTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blackColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewTripLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blackColor" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoUtPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/imageButtonExit"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.46"
+            android:adjustViewBounds="true"
+            android:background="@color/brownColor"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reject1" />
+
+
+    </LinearLayout>
+</LinearLayout>

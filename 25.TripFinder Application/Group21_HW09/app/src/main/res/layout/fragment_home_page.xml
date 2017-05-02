@@ -1,0 +1,206 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    tools:context="com.example.febin.group21_hw09.HomePageFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutProfile"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/actionbar"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutProfilePic"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/brownColor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewProfilePic"
+                    android:layout_width="148dp"
+                    android:layout_height="87dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonProfileUpdate"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@null"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUserDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/brownColor"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewDisplayName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/blackColor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewEMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/blackColor"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textViewGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/blackColor" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonUpdateDetails"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@null"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutOptions"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayoutProfile"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonFriends"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:background="@color/brownColor"
+                android:text="@string/btnFriends"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/buttonPeople"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:background="@color/brownColor"
+                android:text="@string/btnPeople"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/buttonRequests"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:background="@color/brownColor"
+                android:text="@string/btnRequest"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/buttonTRips"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:background="@color/brownColor"
+                android:text="@string/btnTrips"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/buttonJoined"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@color/brownColor"
+                android:text="@string/btnJoined"
+                android:textSize="9sp" />
+
+            <Button
+                android:id="@+id/buttonCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/brownColor"
+                android:text="@string/btnCreate"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayoutOptions"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/whiteColor">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutInflate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutHomeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/actionbar"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewNoMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Nothing to Display"
+                android:textColor="@color/blackColor"
+                android:textSize="25sp" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

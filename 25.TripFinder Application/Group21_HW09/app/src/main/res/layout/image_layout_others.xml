@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="4dp"
+    android:paddingBottom="3dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03">
+
+    <RelativeLayout
+        android:backgroundTint="@color/brownColor"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:background="@drawable/border">
+
+        <ImageButton
+            android:id="@+id/imageButtonDeleteIm1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            app:srcCompat="@android:drawable/ic_input_delete" />
+
+        <TextView
+            android:id="@+id/txtViewSenderNameIm1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_below="@+id/imageViewMesage1"
+             />
+
+        <TextView
+            android:id="@+id/txtViewTimeImage1"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtViewSenderNameIm1"
+            android:layout_toEndOf="@+id/imageViewMesage1"
+            android:layout_toRightOf="@+id/imageViewMesage1"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewMesage1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_width="match_parent" />
+        </LinearLayout>
+</LinearLayout>

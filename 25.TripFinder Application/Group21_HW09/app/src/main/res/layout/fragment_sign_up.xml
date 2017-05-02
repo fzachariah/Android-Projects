@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    tools:context="com.example.febin.group21_hw09.SignUpFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewHeadingSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextFirstName"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextFirstName"
+            android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="14dp"
+            android:text="SignUp"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewHeadingSignUp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextFirstName"
+            android:layout_alignStart="@+id/editTextFirstName"
+            android:layout_below="@+id/editTextFirstName"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmailSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextLastName"
+            android:layout_alignStart="@+id/editTextLastName"
+            android:layout_below="@+id/editTextLastName"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPasswordSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextEmailSignUp"
+            android:layout_alignStart="@+id/editTextEmailSignUp"
+            android:layout_below="@+id/editTextEmailSignUp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextReType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextPasswordSign"
+            android:layout_alignStart="@+id/editTextPasswordSign"
+            android:layout_below="@+id/editTextPasswordSign"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Retype Password"
+            android:inputType="textPassword" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editTextReType"
+            android:layout_alignLeft="@+id/editTextReType"
+            android:layout_alignRight="@+id/editTextReType"
+            android:layout_alignStart="@+id/editTextReType"
+            android:layout_below="@+id/editTextReType"
+            android:layout_marginTop="23dp" />
+
+        <Button
+            android:id="@+id/buttonSignSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@color/actionbar"
+            android:text="@string/btnSignUp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/spinnerGender"
+            android:layout_toRightOf="@+id/textViewHeadingSignUp"
+            android:layout_toEndOf="@+id/textViewHeadingSignUp" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/actionbar"
+            android:textAllCaps="false"
+            android:layout_alignLeft="@+id/spinnerGender"
+            android:layout_alignStart="@+id/spinnerGender"
+            android:layout_alignTop="@+id/buttonSignSign"
+            android:text="Back" />
+    </RelativeLayout>
+</FrameLayout>

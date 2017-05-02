@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/brownColor"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:id="@+id/imageViewReq"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="87dp"
+        android:padding="3dp"
+        android:id="@+id/linearLayoutInside"
+        android:weightSum="1"
+        android:layout_width="150dp">
+
+        <TextView
+            android:id="@+id/textViewReqName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blackColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewReqEmailPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blackColor" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoUtPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:id="@+id/imageButtonReject"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.42"
+            android:adjustViewBounds="true"
+            android:background="@color/brownColor"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/reject1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAccept"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.90"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@color/brownColor"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/accept" />
+    </LinearLayout>
+</LinearLayout>

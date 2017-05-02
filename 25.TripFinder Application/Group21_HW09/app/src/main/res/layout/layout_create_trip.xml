@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutCreateTrip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/containerLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewTripHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="@string/addTrip"
+            android:textColor="@color/actionbar"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editTextTripTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textViewTripHeading"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:ems="10"
+            android:hint="Trip Title"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGallery"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:layout_alignTop="@+id/imageButtonTripPeople"
+            android:layout_toLeftOf="@+id/buttonAddTrip"
+            android:layout_toStartOf="@+id/buttonAddTrip" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTripPeople"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="29dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/nopic1"
+            android:layout_below="@+id/editTextTripTitle"
+            android:layout_toRightOf="@+id/buttonAddTrip"
+            android:layout_toEndOf="@+id/buttonAddTrip" />
+
+        <Button
+            android:id="@+id/buttonAddTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButtonGallery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@color/actionbar"
+            android:text="@string/btnAddTrip" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMap"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            app:srcCompat="@drawable/loc"
+            android:layout_above="@+id/buttonAddTrip"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</LinearLayout>

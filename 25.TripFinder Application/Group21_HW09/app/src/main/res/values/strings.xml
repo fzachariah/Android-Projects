@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TripMate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSignUp">SignUp</string>
+    <string name="btnFriends">Friends</string>
+    <string name="btnPeople">People</string>
+    <string name="btnRequest">Requests</string>
+    <string name="btnTrips">Trips</string>
+    <string name="btnJoined">Joined</string>
+    <string name="btnCreate">Create</string>
+    <string name="nothing">Nothing to Display</string>
+    <string name="addTrip">Add Trip</string>
+    <string name="btnAddTrip">Add Trip</string>
+
+
+    <string-array name="gender_arrays">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
